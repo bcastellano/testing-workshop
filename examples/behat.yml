@@ -1,0 +1,24 @@
+default:
+    suites:
+        api_features:
+            paths:  [ %paths.base%/features/api ]
+            contexts:
+                - ApiContext:
+                    # This param is Client configuration
+                    - 
+                        base_url: http://testing-silex.workshop/index_test.php/
+                        defaults:
+                            verify: false
+                            allow_redirects: false
+                            connect_timeout: 2
+                            timeout: 3
+                            headers:
+                                Content-type: "application/json"
+                    # user credentials for api requests
+                    -
+                        user: 'test-user@gigigo.local'
+                        pass: 'test-user'
+        model_features:
+            paths:  [ %paths.base%/features/model ]
+            contexts:
+                - ModelContext:

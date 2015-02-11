@@ -1,0 +1,7 @@
+formatter.name: pretty
+
+suites:
+    default:
+        spec_prefix:    spec
+        spec_path:      .
+        src_path:       src

@@ -1,0 +1,6 @@
+.composer/
+.viminfo
+/default/
+/html/
+/vagrant/.vagrant/
+/silex/*
