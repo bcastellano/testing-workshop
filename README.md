@@ -1,4 +1,4 @@
-TESTING WORKSHOP
+Testing workshop
 ================
 
 ## Install silex project and dependencies
@@ -20,3 +20,15 @@ $ cd PATH/vagrant
 ~/$ ln -s ../vendor/bin/phpunit phpunit
 ~/$ ln -s ../vendor/bin/behat behat
 ```
+
+## Documentation
+
+# Behat
+ - http://behat.readthedocs.org/en/v3.0/
+ - http://blog.lepine.pro/images/2012-03-behat-cheat-sheet-en.pdf
+
+# PHP Spec
+ - http://www.phpspec.net/en/latest/manual/introduction.html
+ - https://github.com/yvoyer/phpspec-cheat-sheet
+ - https://speakerdeck.com/kikobolingas/diseno-emergente-con-phpspec-phpmad
+ - http://techportal.inviqa.com/2014/09/11/my-top-ten-favourite-phpspec-limitations/
