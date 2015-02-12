@@ -4,3 +4,4 @@
 /html/
 /vagrant/.vagrant/
 /silex/*
+.bash_history
